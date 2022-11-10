@@ -1,0 +1,29 @@
+
+<div class="container text-center mt-4"><h1>{{laboratorio.name}}</h1></div>
+<div class="container text-center mt-4"><h3>Departamento {{laboratorio.department_id}}</h3></div>
+<div class="row m-4">
+  <div class="col-md-4" data-aos="fade-right">
+      <img src="{{laboratorio.main_photo}}" alt="Lab image" class="img-thumbnail">
+      <img src="{{laboratorio.secondary_photo}}" alt="Lab image" class="img-thumbnail">
+  </div>
+  <div class="col-md-8 my-2" data-aos="fade-left">
+      <p class="text-muted">{{laboratorio.description}}</p>
+      <h4>{{laboratorio.place}}</h4>
+  </div>
+</div>
+<hr>
+<div class="container text-center mt-4"><h2>Equipos</h2></div>
+    <!--<table class="table table-dark my-3">
+        <thead class="table-danger text-dark">
+          <tr>
+            <th class="w-50" scope="col">ID</th>
+            <th class="w-50" scope="col">Nombre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let plat of anime.platforms">
+            <th scope="row">{{plat.id}}</th>
+            <td>{{plat.name}}</td>
+          </tr>
+        </tbody>
+      </table>-->
